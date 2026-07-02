@@ -98,12 +98,7 @@
     "fluid",
     "responsive"
   ],
-  "author": "Samuel Reed <samuel.trace.reed@gmail.com> (http://strml.net/)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/react-grid-layout/react-grid-layout/issues"
-  },
-  "homepage": "https://github.com/react-grid-layout/react-grid-layout",
   "dependencies": {
     "clsx": "^2.1.1",
     "fast-equals": "^4.0.3",
@@ -111,9 +106,6 @@
     "react-draggable": "^4.4.6",
     "react-resizable": "^3.1.3",
     "resize-observer-polyfill": "^1.5.1"
-  },
-  "_dependencyNotes": {
-    "fast-equals": "Bug in CRA5 causes fast-equals@5 to fail to import due to .cjs file. See https://github.com/react-grid-layout/react-grid-layout/issues/1904"
   },
   "devDependencies": {
     "@babel/cli": "^7.28.6",
@@ -166,18 +158,9 @@
     "webpack-cli": "^6.0.1",
     "webpack-dev-server": "^5.2.3"
   },
-  "resolutions": {
-    "**/cheerio": "npm:cheerio@1.0.0-rc.12"
-  },
-  "_resolutionNotes": {
-    "**/cheerio": "See https://github.com/cheeriojs/cheerio/issues/4618"
-  },
   "peerDependencies": {
     "react": ">= 16.3.0",
     "react-dom": ">= 16.3.0"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org"
   },
   "jest": {
     "setupFilesAfterEnv": [
